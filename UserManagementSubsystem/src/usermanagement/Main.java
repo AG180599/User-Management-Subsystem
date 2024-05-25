@@ -15,7 +15,7 @@ public class Main {
         UserService deleteAccountService = new UserDeleteService();
         UserService resetPasswordService = new UserResetPasswordService();
 
-        while (running) {
+        while (running) //is the running is the parameter that you added in the while loop? {        
             System.out.println("Welcome to the Hotel Booking System");
             System.out.println("1. Register User");
             System.out.println("2. Login User");
